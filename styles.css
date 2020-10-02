@@ -110,6 +110,151 @@ p {
 
 @media only screen and (min-width: 900px) {
 
+  body {
+    margin: 0;
+    padding: 50px 100px 0;
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+  }
+
+
+
+  /* -------------TOP-CONTAINER---------------- */
+
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .top-flex-child1 {
+    text-align: left;
+  }
+
+  .main-header{
+    margin: 75px 125px 25px 50px;
+    font-size: 3.5rem;
+  }
+
+  .header-text{
+    margin: 25px 275px 50px 50px;
+    line-height: 1.6;
+  }
+
+  .top-flex-child2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .rating {
+    flex: 0 0;
+    width: 50%;
+    text-align: left;
+    margin: auto 0 20px;
+    padding: 25px 0 20px 25px;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+  }
+
+  .r1{
+    align-self: flex-start;
+  }
+
+  .r2{
+    align-self: center;
+  }
+
+  .r3{
+    align-self: flex-end;
+  }
+
+  .rating p {
+    padding-left: 25px;
+    display: inline;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+  }
+
+  .star-icon{
+    display: inline;
+    margin: auto 2.5px auto 2.5px;
+  }
+
+  /* -----------BOTTOM CONTAINER----------------- */
+
+  .bot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  .cust-testimonial {
+    position: relative;
+    background-color: hsl(300, 43%, 22%);
+
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
+  }
+
+  .c1{
+    margin: 0 25px 20px 25px;
+  }
+
+  .c2{
+    margin: 50px 25px 20px 25px;
+  }
+
+  .c3{
+    margin: 100px 25px 20px 25px;
+  }
+
+  .cust-img {
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    border-radius: 100%;
+    width: 45px;
+    height: auto;
+  }
+
+  .test-heading {
+    margin: 45px 0 25px 100px;
+  }
+
+  .cust-name {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .verification {
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+  }
+
+  .cust-text {
+    padding: 0 25px 10px 25px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: hsl(0, 0%, 100%);
+
+  }
+
+  .attribution {
+    text-align: center;
+    font-size: 10px;
+  }
+
 }
 
 @media only screen and (min-width: 1440px) {
